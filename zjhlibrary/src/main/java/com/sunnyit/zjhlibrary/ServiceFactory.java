@@ -20,7 +20,11 @@ public class ServiceFactory {
     }
 
     public void setmILoginService(ILoginService mILoginService) {
-        this.mILoginService = mILoginService;
+        if (mILoginService == null) {
+            this.mILoginService = new EmptyLoginService();
+        } else {
+            this.mILoginService = mILoginService;
+        }
     }
 
     public IMineService getmMineService() {
