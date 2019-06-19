@@ -1,0 +1,17 @@
+/* 统一管理项目的相关信息 */
+ext {
+    android = [
+            compileSdkVersion: 28,
+            applicationId    : "com.sunnyit.zjhtest",
+            minSdkVersion    : 17,
+            targetSdkVersion : 26,
+
+            versionCode      : 1,
+            versionName      : "1.0",
+    ]
+
+    // 设置组件是否可以独立运行
+    isLoginRunAlone = false  //false:作为Lib组件存在， true:作为application存在
+    isMineRunAlone = false   //false:作为Lib组件存在， true:作为application存在
+}
+

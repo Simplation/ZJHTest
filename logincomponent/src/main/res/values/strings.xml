@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LoginComponent</string>
+    <string name="title_activity_login">LoginActivity</string>
+</resources>
